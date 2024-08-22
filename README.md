@@ -14,6 +14,8 @@ Include this &lt;link&gt; tag in the header of your file:
 ```
 <link href="https://cdn.jsdelivr.net/gh/natheerkhalil/easycss@master/all.css" rel="stylesheet">
 ```
+Then, in the head, use the :root in a ``` <style> ``` tag to update the ``` --theme ``` variables (1-6) with colours of your choice. <br><br>
+Alternatively, you can copy & paste the raw code of each CSS file and add them locally to have more control over the code.
 
 ## Reset.css
 Reset.css does not contain class names and serves to remove all default styles from a webpage
