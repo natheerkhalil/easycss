@@ -2,12 +2,11 @@
 Making styles non-restrictive, simple, and comprehensive at the same time.
 
 ## How it works
-This rep comes with 5 main CSS files. These are usually enough for a project, but they can also be incorporated with any existing CSS styles if needed. The files are:
+This rep comes with 4 CSS files that all serve distinct purposes. They can be used in combination with your other CSS, but their purpose is to provide a foundation for styling a website and so they're perfectly fine to be used alone. <br>
 - Flex.css
 - Styles.css
 - Media.css
 - Reset.css
-- Props.css
 
 ## How to use
 Include this &lt;link&gt; tag in the header of your file:
