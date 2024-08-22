@@ -11,7 +11,9 @@ This rep comes with 5 main CSS files. These are usually enough for a project, bu
 
 ## How to use
 Include this &lt;link&gt; tag in the header of your file:
+```
 <link href="https://raw.githubusercontent.com/natheerkhalil/easycss/master/all.css" rel="stylesheet">
+```
 
 ## Reset.css
 Reset.css does not contain class names and serves to remove all default styles from a webpage
@@ -19,19 +21,19 @@ Reset.css does not contain class names and serves to remove all default styles f
 ## Flex.css
 This file controls flex styles. The classes control the following flex attributes:
 
-- Direction (fd)
-- Wrap (fw)
-- Justify Content (jc)
-- Align Content (ac)
-- Align Items (ai)
-- Order (or)
-- Grow (gro)
-- Basis (bas)
-- Shrink (shr)
+- Direction  ``` (fd) ``` 
+- Wrap ```  (fw) ``` 
+- Justify Content ```  (jc) ``` 
+- Align Content ```  (ac) ``` 
+- Align Items  ``` (ai) ``` 
+- Order ```  (or) ``` 
+- Grow ```  (gro) ``` 
+- Basis ```  (bas) ``` 
+- Shrink  ``` (shr) ``` 
 
 The synax of a Flex.css class is: <br><br>
-if Direction, Wrap, Align Content, Align Items: _{id}-{value} <br>
-if Order, Grow, Basis, Shrink: _{id}-{0 - 8 or 0 - 10) <br> <br>
+if Direction, Wrap, Align Content, Align Items: ``` _{id}-{value} ``` <br>
+if Order, Grow, Basis, Shrink: ``` _{id}-{0 - 8 or 0 - 10) ``` <br> <br>
 Order, Grow, Basis, Shrink use numbers as intensifiers. <br> Direction, Wrap, Align Content, Align Items use text representations of their possible values.
 
 ## Styles.css
@@ -45,18 +47,19 @@ This file controls the general shape, size, and colour of elements. It utilises 
 There are also up to 6 theme colours that can be custom set. <br><br>
 These colours are used for: <br>
 
-- background (bg)
-- text colour (txt)
-- border colour (bo)
-- fill (fi)
-- background on hover (hv)
-- text on hover (ht)
-- fill on hover (hfi)
+- background ``` (bg) ```
+- text colour ``` (txt) ```
+- border colour ``` (bo) ```
+- fill ``` (fi) ```
+- background on hover ``` (hv) ```
+- text on hover ``` (ht) ```
+- fill on hover ``` (hfi) ```
 
   
 <br>
-Styles.css also utilises the following 7 sizes: <br>
+Styles.css also utilises the following 7 sizes, from smallest to largest:
 
+```
 - xs
 - sm
 - md
@@ -64,35 +67,39 @@ Styles.css also utilises the following 7 sizes: <br>
 - xl
 - lx
 - gl
+```
+
 <br> 
 Not all classes contain all sizes. <br><br>
 
 These sizes are used for: <br>
 
-- break sizes (br)
-- max widths (w)
-- box shadows (shd)
-- font sizes (t)
-- text alignment (t)
-- margin auto direction (m-auto)
-- border radius (bd)
-- padding (pad)
-- border width (bo)
+- break sizes ``` (br) ``` 
+- max widths ```  (w) ``` 
+- box shadows  ``` (shd) ``` 
+- font sizes ```  (t) ``` 
+- text alignment  ``` (t) ``` 
+- margin auto direction ```  (m-auto) ``` 
+- border radius  ``` (bd) ``` 
+- padding ```  (pad) ``` 
+- border width  ``` (bo) ``` 
 <br>
 The syntax of a Styles.css class is: <br>
 
-if influenced by colour: __{id}-{colour id}-{1 to 10 depending on desired colour shade} <br>
-if influenced by size: __{id}{size or value}
+if influenced by colour: ```  __{id}-{colour id}-{1 to 10 depending on desired colour shade} ```  <br>
+if influenced by size:  ``` __{id}{size or value} ``` 
 
 ## Media.css
 This file uses classes from Flex.css and Styles.css and allows you to decide on which viewpoint they should be used. <br><br>
 The viewport has 6 sizes, from smallest to largest:
+
+ ``` 
 - xs
 - sm
 - md
 - lg
 - xl
 - gl
+ ``` 
 
-
-The syntax of a Media.css class is _m-{size of viewport}-{class name as is from Flex or Styles}
+The syntax of a Media.css class is  ``` _m-{size of viewport}-{class name as is from Flex or Styles} ``` 
