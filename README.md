@@ -12,7 +12,7 @@ This rep comes with 5 main CSS files. These are usually enough for a project, bu
 ## How to use
 Include this &lt;link&gt; tag in the header of your file:
 ```
-<link href="https://raw.githubusercontent.com/natheerkhalil/easycss/master/all.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/natheerkhalil/easycss@master/all.css" rel="stylesheet">
 ```
 
 ## Reset.css
