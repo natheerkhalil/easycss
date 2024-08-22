@@ -133,27 +133,27 @@
 
 /* Border Colour */
 
-.__bd-1 {
+.__bo-1 {
     border-color: var(--theme1);
 }
 
-.__bd-2 {
+.__bo-2 {
     border-color: var(--theme2);
 }
 
-.__bd-3 {
+.__bo-3 {
     border-color: var(--theme3);
 }
 
-.__bd-4 {
+.__bo-4 {
     border-color: var(--theme4);
 }
 
-.__bd-5 {
+.__bo-5 {
     border-color: var(--theme5);
 }
 
-.__bd-6 {
+.__bo-6 {
     border-color: var(--theme6);
 }
 
