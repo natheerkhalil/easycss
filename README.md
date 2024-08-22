@@ -11,13 +11,10 @@ This rep comes with 5 main CSS files. These are usually enough for a project, bu
 
 ## How to use
 Include this &lt;link&gt; tag in the header of your file:
-
+<link href="https://raw.githubusercontent.com/natheerkhalil/easycss/master/all.css" rel="stylesheet">
 
 ## Reset.css
 Reset.css does not contain class names and serves to remove all default styles from a webpage
-
-## Props.css
-Props.css is an empty CSS file that imports Styles.css and Flex.css. It is intended for your custom CSS classes
 
 ## Flex.css
 This file controls flex styles. The classes control the following flex attributes:
