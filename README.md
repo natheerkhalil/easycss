@@ -38,7 +38,7 @@ if Order, Grow, Basis, Shrink: ``` _{id}-{0 - 8 or 0 - 10) ``` <br> <br>
 Order, Grow, Basis, Shrink use numbers as intensifiers. <br> Direction, Wrap, Align Content, Align Items use text representations of their possible values.
 
 ## Styles.css
-This file controls the general shape, size, and colour of elements. It utilises 5 colours:<br>
+This file controls the general shape, size, and colour of elements. It utilises 5 colours, each available in 10 shades (1-10):<br>
 - ${\textsf{\color{rgb(204, 153, 0)}warn (yellow\)}}$
 - ${\textsf{\color{rgb(204, 51, 51)}err (red\)}}$
 - ${\textsf{\color{rgb(102, 153, 204)}info (blue\)}}$
