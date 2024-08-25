@@ -1,5 +1,7 @@
 @import url("styles.css");
 
+._hide {display: none; }
+
 /* XS Size */
 @media only screen and (max-width: 320px) {
     /* Flex properties */
