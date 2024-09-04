@@ -4,6 +4,8 @@
 
 /* XS Size */
 @media only screen and (max-width: 320px) {
+    ._xs-hide {display: none; }
+    
     /* Flex properties */
 
     ._m-xs-flex {
@@ -2260,6 +2262,7 @@
 
 /* SM Size */
 @media only screen and (max-width: 576px) {
+    ._sm-hide {display: none; }
 
     /* Flex properties */
     ._m-sm-flex {
@@ -4516,6 +4519,7 @@
 
 /* MD Size */
 @media only screen and (max-width: 768px) {
+    ._md-hide {display: none; }
 
     /* Flex properties */
     ._m-md-flex {
@@ -6772,6 +6776,7 @@
 
 /* LG Size */
 @media only screen and (max-width: 992px) {
+    ._lg-hide {display: none; }
 
     /* Flex properties */
     ._m-lg-flex {
@@ -9028,6 +9033,7 @@
 
 /* XL Size */
 @media only screen and (max-width: 1200px) {
+    ._xl-hide {display: none; }
 
     /* Flex properties */
     ._m-xl-flex {
